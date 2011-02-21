@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<android.gesture.GestureOverlayView
+		android:id="@+id/gestures_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gestureStrokeType="multiple"
+		android:eventsInterceptionEnabled="true"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview_gestures"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="Bus Number : 0\nCounter : 0"
+			android:layout_alignParentTop="true"
+			android:textSize="25sp" />
+	</android.gesture.GestureOverlayView>
+	<Button
+		android:id="@+id/button_input"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:text="Bus Number : 0\nCounter : 0"
+		android:layout_alignParentTop="true"
+		android:textSize="25sp" />
+</RelativeLayout>

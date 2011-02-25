@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<resources>
-    <string name="app_name">BusRouteTracker</string>
-    <string name="switch_to_grid">Grid View</string>
-    <string name="switch_to_tap">Tap View</string>
-    <string name="switch_to_gesture">Gesture View</string>
-</resources>

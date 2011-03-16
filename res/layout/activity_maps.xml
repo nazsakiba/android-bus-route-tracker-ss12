@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:clickable="true"
+		android:layout_alignParentTop="true"
+		android:apiKey="0N9Hs2Cwlucp-6R7GTHRpJcf_9rtVipch4oCYhg" />
+	<TextView
+		android:id="@+id/textview_display"
+		android:layout_width="fill_parent"
+		android:layout_margin="10sp"
+		android:text="Waiting for GPS co-ordinates..."
+		android:layout_alignParentTop="true"
+		android:background="@drawable/display_background"
+		android:layout_height="wrap_content" />
+</RelativeLayout>

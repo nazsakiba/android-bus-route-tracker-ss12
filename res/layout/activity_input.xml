@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+	<android.gesture.GestureOverlayView
+		android:id="@+id/gestureview_input"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gestureStrokeType="multiple"
+		android:eventsInterceptionEnabled="true"
+		android:orientation="vertical"
+	>
+		<TextView
+			android:id="@+id/textview_gestures"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="Bus Number : 0\nCounter : 0"
+			android:layout_alignParentTop="true"
+			android:textSize="25sp" />
+	</android.gesture.GestureOverlayView>
+	<Button
+		android:id="@+id/button_input_tap"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:text="Bus Number : 0\nCounter : 0"
+		android:layout_alignParentTop="true"
+		android:textSize="25sp" />
+	<RelativeLayout
+		android:id="@+id/relativelayout_input_normal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	>
+		<TextView
+			android:id="@+id/textview_input_normal_bus"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20sp"
+			android:layout_marginTop="20sp"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:text="@string/bus_number"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"/>
+		<EditText
+			android:id="@+id/edittext_input_normal_bus"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10sp"
+			android:layout_marginRight="10sp"
+			android:singleLine="true"
+			android:textSize="20sp"
+			android:hint="@string/hint_input_bus"
+			android:layout_below="@id/textview_input_normal_bus"
+			android:layout_alignParentLeft="true"/>
+		<ImageButton
+			android:id="@+id/imagebutton_input_normal_bus"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/bus_button"
+			android:layout_marginRight="10sp" 
+			android:layout_below="@id/edittext_input_normal_bus"
+			android:layout_centerInParent="true"/>
+	</RelativeLayout>
+	<ImageButton
+			android:id="@+id/imagebutton_input_grid"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:scaleType="fitXY"
+			android:background="@drawable/grid_background"
+			/>
+</RelativeLayout>

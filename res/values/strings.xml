@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	
+	<!-- Normal string resources. Change with language-->
+    <string name="app_name">BusTrackr</string>
+    <string name="settings">Settings</string>
+    <string name="bus_number">Bus Number : </string>
+    <string name="count">Count : </string>
+    <string name="hint_input_bus">Enter bus number...</string>
+    
+    <string name="title_enable_assistance">Visually Impaired Assistance</string>
+    <string name="title_input_type">Assistance Input Type</string>
+    <string name="summary_enable_assistance">Enable assistance for visually impaired people</string>
+    <string name="summary_input_type">Input Type : </string>
+    
+    <!-- Used in shared preferences. Change cautiously -->
+    <string name="default_input_type">Tap Input</string>
+        
+    <string-array name="input_type">
+        <item>Tap Input</item>
+        <item>Gesture Input</item>
+        <item>Grid Input</item>
+    </string-array>
+    
+    <!-- Constants. Do not change even if language is changed -->
+    <string name="preferences_key_bustrackr">ss12_bustrackr</string>
+    <string name="preference_assistance">assistance</string>
+    <string name="preference_input_type">type_of_input</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<CheckBoxPreference
+		android:title="@string/title_enable_assistance"
+		android:defaultValue="true"
+		android:summary="@string/summary_enable_assistance"
+		android:key="@string/preference_assistance" />
+	<ListPreference
+		android:title="@string/title_input_type"
+		android:key="@string/preference_input_type"
+		android:dependency="@string/preference_assistance"
+		android:defaultValue="@string/default_input_type"
+		android:entries="@array/input_type"
+		android:entryValues="@array/input_type" />
+</PreferenceScreen>

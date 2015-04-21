@@ -1,0 +1,3 @@
+Project developed as part of the SS12 Code-A-Thon challenge organized by Project:Possibility at USC on Feb 19-20 2011. People with visual disabilities often require assistance when using mass transit. Without the ability to identify landmarks or read signs/displays, they usually have to rely on verbal announcements. If missed or not given, that person may miss their stop. This GPS-enabled mobile app tries to address this problem.
+
+Watch the project presentation file at http://goo.gl/JvwwA
